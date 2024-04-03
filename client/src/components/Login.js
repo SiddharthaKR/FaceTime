@@ -4,9 +4,7 @@ import { Avatar } from "@material-ui/core";
 import "../css/home.css";
 import { useSelector, useDispatch } from "react-redux";
 import { loginUser, logoutUser } from "../Redux/Actions/UserActions";
-const GOOGLE_CLIENT_ID =
-  "589738573974-otung1p4nb0digu284c36hs49jr9g6kc.apps.googleusercontent.com";
-const GOOGLE_SECRET_KEY = "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";
+
 
 const Login = () => {
   const dispatch = useDispatch();
